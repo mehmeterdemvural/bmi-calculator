@@ -1,0 +1,7 @@
+version: '3'
+services:
+  bmi-calculator:
+    container_name: bmi-calculator
+    build: .
+    ports:
+      - "8030:8030"
